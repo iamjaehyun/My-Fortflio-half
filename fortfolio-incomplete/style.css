@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  background: black;
+  justify-content: space-between;
+  position: sticky;
+  top:0;
+}
+.header-nav {
+  display: flex;
+}
+.header-menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.header-menu li:hover{
+  background: coral;
+  border-radius: 5px;
+}
+
+.header-menu li {
+  color: whitesmoke;
+  margin-right: 10px;
+  margin-left: 30px;
+  font-size: 20px;
+  padding: 5px;
+}
+.header-menu li a {
+  color:white;
+}
+.header-logo {
+  color: #f7551a;
+  align-items: center;
+  display: flex;
+  font-size: 28px;
+  margin-left: 20px;
+}
+.search {
+  display: flex;
+  color: whitesmoke;
+  align-items: center;
+  font-size: 21px;
+  margin-right: 20px;
+}
+.section {
+    display: flex;
+    width: auto;
+    height: 800px;
+    background-image: url('mountains.jpg');
+    background-size: cover;
+    resize: both;
+    overflow: scroll;
+    justify-content: center;
+    align-items: flex-end;
+}
+.section-article {
+    font-size: 30px;
+    display: flex;
+    padding-bottom: 20px;
+    font-family: 'Vollkorn', serif;
+}
+.section2 {
+  display: flex;
+  width: 100%;
+  height: 900px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section2-header {
+  display: flex;
+  font-size: 40px;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.section2-article {
+  display: flex;
+  width: 800px;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  margin-top:100px;
+  justify-content: center;
+}
+.html5 {
+  font-size: 50px;
+  margin-right: 70px;
+
+}
+.html5 i {
+  position: relative;
+  left: 45px;
+  color:red;
+  font-size:80px;
+  margin-top: 20px;
+}
+.css {
+  font-size: 50px;
+  margin-right: 70px;
+  margin-left: 20px;
+}
+.css i {
+  position: relative;
+  left:15px;
+  color:dodgerblue;
+  font-size:80px;
+  margin-top: 20px;
+}
+.JavaScript {
+  font-size:50px;
+  
+}
+.JavaScript i{
+  justify-content: center;
+  position:relative;
+  left:80px;
+  color:rgb(224, 224, 3);
+  font-size:80px;
+  margin-top: 20px;
+}
+.section3{
+  width:100%;
+  height:300px;
+  display:flex;
+  justify-content: center;
+  background: black;
+  flex-direction: column;
+  align-items: center;
+}
+.section3-header{
+  color:white;
+  font-size: 25px;
+}
+.section3-detail{
+  color:white;
+  list-style: none;
+}
+.section3-detail li{
+font-size: 20px;
+padding:5px;
+}
+.section3-footer {
+  color:white;
+  position: relative;
+  left:460px;
+}
